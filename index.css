@@ -6,3 +6,32 @@ html, body {
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+/* images */
+
+.site-img {
+    width: 100px;
+}
+
+.prof-pic {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+
+
+/* layout */
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+
+.site-profile {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1px solid #cfcfcf;
+}
