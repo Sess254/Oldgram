@@ -3,38 +3,6 @@
 html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-
-
-/* images */
-
-.header-img {
-    width: 100px;
-}
-
-img {
-    margin-bottom: 10px;
-}
-
-.avatar-img {
-    border-radius: 50%;
-    width: 50px;
-    height: auto;
-}
-
-
-/* layout */
-
-.header-container {
-    width: 570px;
-    margin: 0 auto;
-    border-bottom: 1px solid #C6C6C6;
-}
-
-
